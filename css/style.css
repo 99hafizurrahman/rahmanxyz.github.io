@@ -111,6 +111,9 @@ body{
     backdrop-filter: blur( 49.0px );
     -webkit-backdrop-filter: blur( 1.0px );
     border-radius: 0.2rem;
+    transition-duration: 100ms;
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+   
 
 }
 a:active{
