@@ -161,13 +161,7 @@ td,th{
     padding: 0;
 }
 
-.project-tile:hover{
 
-
-    
-    transform: scaleX(1.01);
-    transition-duration: 200ms;
-}
 .project-tile{
     max-width:20rem;
     height: auto;
@@ -185,7 +179,7 @@ td,th{
 .button a{
     text-decoration: none;
     color: black;
-    padding:1rem 0.6rem;
+    
 }
 
 .button {
@@ -193,16 +187,16 @@ td,th{
     margin: 0.3rem 0.6rem;
     text-decoration: none;
     font-weight: 700;
+    padding:0.3rem 0.6rem;
     border-radius: 0.2rem;
     border: 0.2rem solid rgba(180, 177, 177, 0.5);
     
 }
 
 .button:hover{
-    background: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 49.0px );
-    -webkit-backdrop-filter: blur( 1.0px );
+    background: rgba(95, 93, 93, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(221, 221, 224, 0.37);
+   
     border-radius: 0.2rem;
 
 }
