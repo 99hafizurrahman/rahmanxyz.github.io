@@ -160,6 +160,14 @@ td,th{
     margin: 0;
     padding: 0;
 }
+
+.project-tile:hover{
+
+
+    
+    transform: scaleX(1.01);
+    transition-duration: 200ms;
+}
 .project-tile{
     max-width:20rem;
     height: auto;
@@ -174,17 +182,17 @@ td,th{
    
     
 }
-a{
+.button a{
     text-decoration: none;
     color: black;
+    padding:1rem 0.6rem;
 }
 
 .button {
-    padding:0.3rem 0.6rem;
+    
     margin: 0.3rem 0.6rem;
     text-decoration: none;
     font-weight: 700;
-  
     border-radius: 0.2rem;
     border: 0.2rem solid rgba(180, 177, 177, 0.5);
     
